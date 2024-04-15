@@ -9,4 +9,7 @@ for i in range(t):
             max1=a[j]
     for k in range(n):
         if max2<a[k]:
-            if 
+            if
+
+
+

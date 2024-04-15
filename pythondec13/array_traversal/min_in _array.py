@@ -6,3 +6,7 @@ while i < len(a):
         min = a[i]
     i += 1
 print( a[i])
+
+
+
+

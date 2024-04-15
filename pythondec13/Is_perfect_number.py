@@ -10,4 +10,4 @@ while i<n:
 if n==count:
     print("YES")
 else:
-    print("NO")        
+    print("NO")      

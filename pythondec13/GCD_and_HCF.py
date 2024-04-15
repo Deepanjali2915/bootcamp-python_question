@@ -8,5 +8,5 @@ if n>m:
             print(i)
         i+=1    
 
-else:
+# else:
     print("NO")    
