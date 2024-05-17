@@ -1,40 +1,26 @@
-# n=(input())
-# d=0
-# b=len(n)
-# i=0
-# while i<b:
-#     a=int(n[i])
-#     d=(d*2)+a 
-#     i+=1
-# print(d)    
+
+# binary = input()
+# decimal = 0
+# power = len(binary) - 1
+# index = 0
+
+# while index < len(binary):
+#     if binary[index] == '1':
+#         decimal += 2 ** power
+#     power -= 1
+#     index += 1
+
+# print(decimal)
 
 
-# a=[1,1,0,1,1]
-# i=0
-# sum=0
-# sum1=0
-# number=len(a)-1
-# while i<len(a):
-#     b=a[number]
-#     sum=(2**i*b)
-#     number-=1
-#     i+=1
-#     sum1+=sum
-# print(sum1)  
 
-
-# n=int(input())
-# for _ in range(n):
-#     t=int(input())
-a=str(input())
-i=0
+a="11101"
+i=len(a)
 sum=0
-sum1=0
-number=len(a)-1
-while i<len(a):
-    b=a[number]
-    sum=(2**i*b)
-    number-=1
-    i+=1
-    sum1+=sum
-print(sum1)  
+while i>=0:
+    if a[i]=="1":
+        print(a[i],i)
+        sum+=2**i
+        print(sum) 
+    i-=1
+print(sum,"ss")        

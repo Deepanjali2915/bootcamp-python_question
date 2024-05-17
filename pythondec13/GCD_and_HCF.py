@@ -1,12 +1,13 @@
 m,n=map(int,input().split())
-if n>m:
-    # print("YES")
-    i=0
-    # count=0
-    while i<n:
-        if n%i==0 and m%i==0:
-            print(i)
-        i+=1    
-
-# else:
-    print("NO")    
+if m>n:
+    max=m 
+    min=n
+else:
+    max=n
+    min=m
+number=max
+if number%min!=0:
+    number+=max
+    print(number)            
+else:
+    print(m*n)
