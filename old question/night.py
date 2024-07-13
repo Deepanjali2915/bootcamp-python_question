@@ -45,12 +45,12 @@
     
 
 
-n=int(input())
-k=int(input())
-i=0
-while i<k:
-    print((n+(i*2)),end=" ")
-    i+=1
+# n=int(input())
+# k=int(input())
+# i=0
+# while i<k:
+#     print((n+(i*2)),end=" ")
+#     i+=1
     
 
 

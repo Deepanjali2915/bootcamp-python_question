@@ -12,6 +12,6 @@ for i in range(t):
                 print(a[i])
             j+=1
         i+=1
-        if count<=1:f 
+        if count<=1: 
             break
     

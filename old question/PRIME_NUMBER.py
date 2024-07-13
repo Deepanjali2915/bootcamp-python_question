@@ -9,3 +9,18 @@ def is_prime(n):
             return False
     return True
  
+n=int(input())
+i=0
+j=2
+while i<n:
+  count=0
+  k=2
+  while k<=j:
+    if j%k==0:
+      count+=1
+    k+=1
+  if count==1:
+    print(j,end=" ")
+    i+=1 
+  j+=1  
+          

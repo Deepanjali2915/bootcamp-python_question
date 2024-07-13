@@ -1,15 +1,19 @@
-a=[5,4,5,7,6,3,2,4,6]
+# 1
+a=[1,2,3,4,5,6,7,1,2,3,4,5,6]
 i=0
 count=1
-max=1
+# b=[]
 while i<len(a)-1:
-    if a[i]<a[i+1]:
-        count+=1
-    else:
-        count=1
-        # break
-    if count>max :
-        max=count
-
-    i+=1
-print(max)    
+  if a[i]<=a[i+1]:
+    count+=1 
+    # b=b+[count]
+  else:
+    count=1
+  i+=1 
+max=0
+# j=0
+# while j<len(b):
+if count>max:
+  max=count
+  # j+=1 
+print(max)

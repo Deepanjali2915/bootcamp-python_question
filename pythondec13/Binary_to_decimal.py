@@ -14,13 +14,25 @@
 
 
 
-a="11101"
-i=len(a)
-sum=0
-while i>=0:
-    if a[i]=="1":
-        print(a[i],i)
-        sum+=2**i
-        print(sum) 
-    i-=1
-print(sum,"ss")        
+# a="11101"
+# i=len(a)
+# sum=0
+# while i>=0:
+#     if a[i]=="1":
+#         print(a[i],i)
+#         sum+=2**i
+#         print(sum) 
+#     i-=1
+# print(sum,"ss")        
+
+
+
+bin=int(input())
+i=0
+dic=0
+while bin>0:
+    b=bin%10
+    dic=dic+(b*(2**i))
+    bin=bin//10
+    i+=1
+print(dic)    
