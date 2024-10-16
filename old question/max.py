@@ -1,7 +1,7 @@
 t=int(input())
 for i in range(t):
     n=int(input())
-    a=list(map(int,input().split())
+    a=list(map(int,input().split()))
     max1=a[0]
     max2=a[0]
     for j in range(n):

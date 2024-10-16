@@ -14,3 +14,31 @@
 # The fourth element of the array is 7. 21 = 7 + 3 + 6 + 5.
 # The fifth element of the array is 5. 23 = 7 + 3 + 6 + 7.
 
+
+
+a=[7, 3, 6, 7, 5]
+# i=0
+# sum=0
+# while i<len(a):
+#     sum+=a[i]
+#     i+=1
+# i=0
+# while i<len(a):   
+#     print(sum-a[i],end=" ")
+#     i+=1
+
+
+
+
+i=0
+sum=0
+while i <len(a):
+    if i!=i:
+        j=0
+        while j<len(a):
+            sum+=a[j]
+            j+=1
+        # sum+=a[i]
+        # print(sum,end="")    
+    i+=1       
+print(sum)

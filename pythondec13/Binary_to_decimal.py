@@ -27,12 +27,61 @@
 
 
 
-bin=int(input())
-i=0
-dic=0
-while bin>0:
-    b=bin%10
-    dic=dic+(b*(2**i))
-    bin=bin//10
-    i+=1
-print(dic)    
+# bin=int(input())
+# i=0
+# dic=0
+# while bin>0:
+#     b=bin%10
+#     dic=dic+(b*(2**i))
+#     bin=bin//10
+#     i+=1
+# print(dic)    
+
+
+
+
+a = int(input())
+i = 0
+c=0
+while a > 0:
+    b = a%10
+    c = c + (b*(2**i))
+    a = a//10 
+    i += 1 
+print(c)    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
